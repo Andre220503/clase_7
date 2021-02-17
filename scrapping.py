@@ -1,3 +1,6 @@
+from bs4 import BeatifulSoup
+
+html_doc = """
 <html>
     <head>
         <title>The Dormouse's story</title>
@@ -14,3 +17,8 @@
     <p>class="story"...</p>
     </body>
 </html>
+"""
+
+contenido = BeatifulSoup{html_doc, "html_parser"}
+
+
